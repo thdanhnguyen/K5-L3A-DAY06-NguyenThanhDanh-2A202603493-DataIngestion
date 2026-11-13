@@ -1,0 +1,7 @@
+strategy,split,total,hit_at_1_count,hit_at_1_rate,hit_at_3_count,hit_at_3_rate,filter_total,filter_compliant_count,filter_compliant_rate
+A,dev,15,6,0.4,9,0.6,3,1,0.3333
+A,test,5,3,0.6,4,0.8,1,0,0.0
+B,dev,15,10,0.6667,12,0.8,3,1,0.3333
+B,test,5,3,0.6,4,0.8,1,0,0.0
+C,dev,15,10,0.6667,12,0.8,3,3,1.0
+C,test,5,3,0.6,5,1.0,1,1,1.0

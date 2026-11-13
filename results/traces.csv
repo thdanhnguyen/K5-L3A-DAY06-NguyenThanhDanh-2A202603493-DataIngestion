@@ -1,0 +1,61 @@
+strategy,question_id,split,type,gold_page,question_filter,hit_at_1,hit_at_3,filter_compliant,top1_chunk,top1_page,top1_score,top2_chunk,top2_page,top2_score,top3_chunk,top3_page,top3_score
+A,q01,dev,truc_tiep,6,,False,True,,nist-ai-rmf-1.0-p07-fix-02,7,0.548223,nist-ai-rmf-1.0-p06-fix-01,6,0.528548,nist-ai-rmf-1.0-p09-fix-04,9,0.506458
+A,q02,dev,truc_tiep,7,,True,True,,nist-ai-rmf-1.0-p07-fix-00,7,0.462746,nist-ai-rmf-1.0-p19-fix-02,19,0.409759,nist-ai-rmf-1.0-p18-fix-06,18,0.384192
+A,q03,dev,truc_tiep,9,,True,True,,nist-ai-rmf-1.0-p09-fix-01,9,0.621074,nist-ai-rmf-1.0-p12-fix-00,12,0.571188,nist-ai-rmf-1.0-p06-fix-01,6,0.547912
+A,q04,dev,dieu_kien_ngoai_le,10,,True,True,,nist-ai-rmf-1.0-p10-fix-01,10,0.479694,nist-ai-rmf-1.0-p34-fix-01,34,0.466153,nist-ai-rmf-1.0-p06-fix-01,6,0.462756
+A,q05,dev,dien_dat_lai,11,,False,False,,nist-ai-rmf-1.0-p21-fix-01,21,0.462241,nist-ai-rmf-1.0-p20-fix-00,20,0.457179,nist-ai-rmf-1.0-p12-fix-02,12,0.449676
+A,q06,dev,truc_tiep,12,,True,True,,nist-ai-rmf-1.0-p12-fix-00,12,0.76547,nist-ai-rmf-1.0-p12-fix-04,12,0.631035,nist-ai-rmf-1.0-p12-fix-01,12,0.596878
+A,q07,dev,dieu_kien_ngoai_le,13,,False,False,,nist-ai-rmf-1.0-p19-fix-04,19,0.533973,nist-ai-rmf-1.0-p30-fix-03,30,0.520231,nist-ai-rmf-1.0-p13-fix-00,13,0.519728
+A,q08,dev,truc_tiep,17,,False,False,,nist-ai-rmf-1.0-p17-fix-00,17,0.640428,nist-ai-rmf-1.0-p17-fix-04,17,0.623563,nist-ai-rmf-1.0-p30-fix-03,30,0.595875
+A,q09,dev,metadata_filter,19,"{""section"": ""part_1_foundational""}",False,True,True,nist-ai-rmf-1.0-p18-fix-06,18,0.562882,nist-ai-rmf-1.0-p19-fix-00,19,0.523947,nist-ai-rmf-1.0-p18-fix-05,18,0.452041
+A,q10,dev,dieu_kien_ngoai_le,21,,False,True,,nist-ai-rmf-1.0-p22-fix-03,22,0.502767,nist-ai-rmf-1.0-p21-fix-00,21,0.489318,nist-ai-rmf-1.0-p21-fix-03,21,0.481308
+A,q11,dev,dien_dat_lai,22,,True,True,,nist-ai-rmf-1.0-p22-fix-00,22,0.676173,nist-ai-rmf-1.0-p21-fix-03,21,0.667687,nist-ai-rmf-1.0-p21-fix-04,21,0.633473
+A,q12,dev,metadata_filter,25,"{""section"": ""part_2_core_profiles""}",False,False,False,nist-ai-rmf-1.0-p25-fix-00,25,0.685509,nist-ai-rmf-1.0-p38-fix-02,38,0.533297,nist-ai-rmf-1.0-p47-fix-00,47,0.500539
+A,q13,dev,truc_tiep,26,,True,True,,nist-ai-rmf-1.0-p26-fix-00,26,0.655714,nist-ai-rmf-1.0-p26-fix-01,26,0.63223,nist-ai-rmf-1.0-p08-fix-01,8,0.525672
+A,q14,dev,truc_tiep,33,,False,False,,nist-ai-rmf-1.0-p34-fix-00,34,0.58063,nist-ai-rmf-1.0-p25-fix-00,25,0.54554,nist-ai-rmf-1.0-p35-fix-00,35,0.535699
+A,q15,dev,metadata_filter,40,"{""section"": ""appendix""}",True,True,False,nist-ai-rmf-1.0-p40-fix-00,40,0.675547,nist-ai-rmf-1.0-p16-fix-00,16,0.622542,nist-ai-rmf-1.0-p40-fix-02,40,0.565024
+A,q16,test,truc_tiep,29,,False,True,,nist-ai-rmf-1.0-p28-fix-04,28,0.514348,nist-ai-rmf-1.0-p29-fix-00,29,0.510366,nist-ai-rmf-1.0-p29-fix-02,29,0.505194
+A,q17,test,dien_dat_lai,36,,True,True,,nist-ai-rmf-1.0-p36-fix-00,36,0.484358,nist-ai-rmf-1.0-p33-fix-02,33,0.446674,nist-ai-rmf-1.0-p33-fix-03,33,0.414637
+A,q18,test,truc_tiep,38,,True,True,,nist-ai-rmf-1.0-p38-fix-00,38,0.539988,nist-ai-rmf-1.0-p28-fix-04,28,0.513459,nist-ai-rmf-1.0-p32-fix-03,32,0.505508
+A,q19,test,metadata_filter,43,"{""section"": ""appendix""}",False,False,False,nist-ai-rmf-1.0-p45-fix-00,45,0.41503,nist-ai-rmf-1.0-p30-fix-03,30,0.408288,nist-ai-rmf-1.0-p22-fix-03,22,0.399401
+A,q20,test,dieu_kien_ngoai_le,45,,True,True,,nist-ai-rmf-1.0-p45-fix-01,45,0.502681,nist-ai-rmf-1.0-p45-fix-00,45,0.459767,nist-ai-rmf-1.0-p45-fix-05,45,0.433979
+B,q01,dev,truc_tiep,6,,True,True,,nist-ai-rmf-1.0-p06-par-01,6,0.66923,nist-ai-rmf-1.0-p07-par-04,7,0.62051,nist-ai-rmf-1.0-p07-par-02,7,0.54214
+B,q02,dev,truc_tiep,7,,True,True,,nist-ai-rmf-1.0-p07-par-00,7,0.467879,nist-ai-rmf-1.0-p07-par-01,7,0.367756,nist-ai-rmf-1.0-p18-par-04,18,0.358162
+B,q03,dev,truc_tiep,9,,True,True,,nist-ai-rmf-1.0-p09-par-01,9,0.594447,nist-ai-rmf-1.0-p09-par-03,9,0.568074,nist-ai-rmf-1.0-p12-par-00,12,0.559217
+B,q04,dev,dieu_kien_ngoai_le,10,,False,False,,nist-ai-rmf-1.0-p09-par-04,9,0.489963,nist-ai-rmf-1.0-p06-par-01,6,0.477826,nist-ai-rmf-1.0-p46-par-03,46,0.464952
+B,q05,dev,dien_dat_lai,11,,False,False,,nist-ai-rmf-1.0-p06-par-05,6,0.458241,nist-ai-rmf-1.0-p20-par-00,20,0.450741,nist-ai-rmf-1.0-p46-par-03,46,0.449655
+B,q06,dev,truc_tiep,12,,True,True,,nist-ai-rmf-1.0-p12-par-00,12,0.75777,nist-ai-rmf-1.0-p12-par-03,12,0.675329,nist-ai-rmf-1.0-p09-par-03,9,0.610784
+B,q07,dev,dieu_kien_ngoai_le,13,,False,True,,nist-ai-rmf-1.0-p46-par-03,46,0.531764,nist-ai-rmf-1.0-p13-par-00,13,0.517942,nist-ai-rmf-1.0-p20-par-00,20,0.516204
+B,q08,dev,truc_tiep,17,,True,True,,nist-ai-rmf-1.0-p17-par-00,17,0.641465,nist-ai-rmf-1.0-p17-par-03,17,0.605726,nist-ai-rmf-1.0-p18-par-02,18,0.605551
+B,q09,dev,metadata_filter,19,"{""section"": ""part_1_foundational""}",True,True,True,nist-ai-rmf-1.0-p19-par-01,19,0.551369,nist-ai-rmf-1.0-p18-par-04,18,0.48371,nist-ai-rmf-1.0-p19-par-02,19,0.404398
+B,q10,dev,dieu_kien_ngoai_le,21,,False,True,,nist-ai-rmf-1.0-p09-par-04,9,0.490804,nist-ai-rmf-1.0-p20-par-03,20,0.477933,nist-ai-rmf-1.0-p21-par-00,21,0.477132
+B,q11,dev,dien_dat_lai,22,,True,True,,nist-ai-rmf-1.0-p22-par-00,22,0.687399,nist-ai-rmf-1.0-p21-par-03,21,0.632259,nist-ai-rmf-1.0-p20-par-03,20,0.611309
+B,q12,dev,metadata_filter,25,"{""section"": ""part_2_core_profiles""}",True,True,False,nist-ai-rmf-1.0-p25-par-00,25,0.681066,nist-ai-rmf-1.0-p38-par-02,38,0.546797,nist-ai-rmf-1.0-p08-par-00,8,0.503725
+B,q13,dev,truc_tiep,26,,True,True,,nist-ai-rmf-1.0-p26-par-00,26,0.679466,nist-ai-rmf-1.0-p08-par-02,8,0.505,nist-ai-rmf-1.0-p47-par-00,47,0.503939
+B,q14,dev,truc_tiep,33,,False,False,,nist-ai-rmf-1.0-p34-par-00,34,0.573888,nist-ai-rmf-1.0-p35-par-00,35,0.542034,nist-ai-rmf-1.0-p25-par-00,25,0.538588
+B,q15,dev,metadata_filter,40,"{""section"": ""appendix""}",True,True,False,nist-ai-rmf-1.0-p40-par-00,40,0.667714,nist-ai-rmf-1.0-p16-par-00,16,0.622576,nist-ai-rmf-1.0-p40-par-02,40,0.576669
+B,q16,test,truc_tiep,29,,False,True,,nist-ai-rmf-1.0-p29-par-01,29,0.529193,nist-ai-rmf-1.0-p29-par-00,29,0.507688,nist-ai-rmf-1.0-p27-par-03,27,0.479883
+B,q17,test,dien_dat_lai,36,,True,True,,nist-ai-rmf-1.0-p36-par-00,36,0.485965,nist-ai-rmf-1.0-p33-par-02,33,0.414247,nist-ai-rmf-1.0-p35-par-00,35,0.409994
+B,q18,test,truc_tiep,38,,True,True,,nist-ai-rmf-1.0-p38-par-00,38,0.548468,nist-ai-rmf-1.0-p37-par-02,37,0.532501,nist-ai-rmf-1.0-p37-par-01,37,0.494729
+B,q19,test,metadata_filter,43,"{""section"": ""appendix""}",False,False,False,nist-ai-rmf-1.0-p45-par-00,45,0.404698,nist-ai-rmf-1.0-p19-par-00,19,0.401155,nist-ai-rmf-1.0-p30-par-02,30,0.400593
+B,q20,test,dieu_kien_ngoai_le,45,,True,True,,nist-ai-rmf-1.0-p45-par-01,45,0.457788,nist-ai-rmf-1.0-p45-par-00,45,0.436637,nist-ai-rmf-1.0-p06-par-02,6,0.404817
+C,q01,dev,truc_tiep,6,,True,True,,nist-ai-rmf-1.0-p06-par-01,6,0.66923,nist-ai-rmf-1.0-p07-par-04,7,0.62051,nist-ai-rmf-1.0-p07-par-02,7,0.54214
+C,q02,dev,truc_tiep,7,,True,True,,nist-ai-rmf-1.0-p07-par-00,7,0.467879,nist-ai-rmf-1.0-p07-par-01,7,0.367756,nist-ai-rmf-1.0-p18-par-04,18,0.358162
+C,q03,dev,truc_tiep,9,,True,True,,nist-ai-rmf-1.0-p09-par-01,9,0.594447,nist-ai-rmf-1.0-p09-par-03,9,0.568074,nist-ai-rmf-1.0-p12-par-00,12,0.559217
+C,q04,dev,dieu_kien_ngoai_le,10,,False,False,,nist-ai-rmf-1.0-p09-par-04,9,0.489963,nist-ai-rmf-1.0-p06-par-01,6,0.477826,nist-ai-rmf-1.0-p46-par-03,46,0.464952
+C,q05,dev,dien_dat_lai,11,,False,False,,nist-ai-rmf-1.0-p06-par-05,6,0.458241,nist-ai-rmf-1.0-p20-par-00,20,0.450741,nist-ai-rmf-1.0-p46-par-03,46,0.449655
+C,q06,dev,truc_tiep,12,,True,True,,nist-ai-rmf-1.0-p12-par-00,12,0.75777,nist-ai-rmf-1.0-p12-par-03,12,0.675329,nist-ai-rmf-1.0-p09-par-03,9,0.610784
+C,q07,dev,dieu_kien_ngoai_le,13,,False,True,,nist-ai-rmf-1.0-p46-par-03,46,0.531764,nist-ai-rmf-1.0-p13-par-00,13,0.517942,nist-ai-rmf-1.0-p20-par-00,20,0.516204
+C,q08,dev,truc_tiep,17,,True,True,,nist-ai-rmf-1.0-p17-par-00,17,0.641465,nist-ai-rmf-1.0-p17-par-03,17,0.605726,nist-ai-rmf-1.0-p18-par-02,18,0.605551
+C,q09,dev,metadata_filter,19,"{""section"": ""part_1_foundational""}",True,True,True,nist-ai-rmf-1.0-p19-par-01,19,0.551369,nist-ai-rmf-1.0-p18-par-04,18,0.48371,nist-ai-rmf-1.0-p19-par-02,19,0.404398
+C,q10,dev,dieu_kien_ngoai_le,21,,False,True,,nist-ai-rmf-1.0-p09-par-04,9,0.490804,nist-ai-rmf-1.0-p20-par-03,20,0.477933,nist-ai-rmf-1.0-p21-par-00,21,0.477132
+C,q11,dev,dien_dat_lai,22,,True,True,,nist-ai-rmf-1.0-p22-par-00,22,0.687399,nist-ai-rmf-1.0-p21-par-03,21,0.632259,nist-ai-rmf-1.0-p20-par-03,20,0.611309
+C,q12,dev,metadata_filter,25,"{""section"": ""part_2_core_profiles""}",True,True,True,nist-ai-rmf-1.0-p25-par-00,25,0.681066,nist-ai-rmf-1.0-p38-par-02,38,0.546797,nist-ai-rmf-1.0-p26-par-01,26,0.491785
+C,q13,dev,truc_tiep,26,,True,True,,nist-ai-rmf-1.0-p26-par-00,26,0.679466,nist-ai-rmf-1.0-p08-par-02,8,0.505,nist-ai-rmf-1.0-p47-par-00,47,0.503939
+C,q14,dev,truc_tiep,33,,False,False,,nist-ai-rmf-1.0-p34-par-00,34,0.573888,nist-ai-rmf-1.0-p35-par-00,35,0.542034,nist-ai-rmf-1.0-p25-par-00,25,0.538588
+C,q15,dev,metadata_filter,40,"{""section"": ""appendix""}",True,True,True,nist-ai-rmf-1.0-p40-par-00,40,0.667714,nist-ai-rmf-1.0-p40-par-02,40,0.576669,nist-ai-rmf-1.0-p40-par-01,40,0.574962
+C,q16,test,truc_tiep,29,,False,True,,nist-ai-rmf-1.0-p29-par-01,29,0.529193,nist-ai-rmf-1.0-p29-par-00,29,0.507688,nist-ai-rmf-1.0-p27-par-03,27,0.479883
+C,q17,test,dien_dat_lai,36,,True,True,,nist-ai-rmf-1.0-p36-par-00,36,0.485965,nist-ai-rmf-1.0-p33-par-02,33,0.414247,nist-ai-rmf-1.0-p35-par-00,35,0.409994
+C,q18,test,truc_tiep,38,,True,True,,nist-ai-rmf-1.0-p38-par-00,38,0.548468,nist-ai-rmf-1.0-p37-par-02,37,0.532501,nist-ai-rmf-1.0-p37-par-01,37,0.494729
+C,q19,test,metadata_filter,43,"{""section"": ""appendix""}",False,True,True,nist-ai-rmf-1.0-p45-par-00,45,0.404698,nist-ai-rmf-1.0-p43-par-00,43,0.38714,nist-ai-rmf-1.0-p46-par-03,46,0.381525
+C,q20,test,dieu_kien_ngoai_le,45,,True,True,,nist-ai-rmf-1.0-p45-par-01,45,0.457788,nist-ai-rmf-1.0-p45-par-00,45,0.436637,nist-ai-rmf-1.0-p06-par-02,6,0.404817

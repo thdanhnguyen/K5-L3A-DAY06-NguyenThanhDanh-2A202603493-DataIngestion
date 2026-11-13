@@ -1,0 +1,4 @@
+strategy,test_metadata_valid,filter_compliance_dev,filter_compliance_test,filter_compliance_all
+A,15/15,1/3,0/1,1/4
+B,15/15,1/3,0/1,1/4
+C,15/15,3/3,1/1,4/4

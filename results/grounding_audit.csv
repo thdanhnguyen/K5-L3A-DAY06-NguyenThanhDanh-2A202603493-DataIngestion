@@ -1,0 +1,16 @@
+question_id,strategy,grounding_score,reason
+q16,A,2,Hit #2 (p29-fix-00) chứa nguyên văn GOVERN 4.3 và truy được về trang 29.
+q16,B,2,Hit #2 (p29-par-00) chứa nguyên văn GOVERN 4.3 kèm bối cảnh GOVERN 4 và GOVERN 5.
+q16,C,2,Giống B (câu hỏi không yêu cầu filter).
+q17,A,2,Hit #1 (p36-fix-00) chứa trọn câu MEASURE 3.3 ở trang 36.
+q17,B,2,Hit #1 (p36-par-00) chứa trọn câu MEASURE 3.3 và ngữ cảnh MEASURE 4.
+q17,C,2,Giống B.
+q18,A,2,Hit #1 (p38-fix-00) chứa đủ nội dung MANAGE 4.1 ở trang 38.
+q18,B,2,"Hit #1 (p38-par-00) chứa trọn vẹn MANAGE 4, 4.1 và 4.2 ở trang 38."
+q18,C,2,Giống B.
+q19,A,0,"Cả 3 kết quả (p45, p30, p22) đều không nhắc đến pre-trained models và transfer learning trong Appendix B."
+q19,B,0,"Cả 3 kết quả (p45, p19, p30) đều lệch sang phần khác, không có bằng chứng từ trang 43."
+q19,C,2,"Nhờ filter section=appendix, Hit #2 (p43-par-00) trả về đúng đoạn Appendix B nêu rõ pre-trained models và transfer learning."
+q20,A,2,Hit #1 (p45-fix-01) chứa trọn vẹn câu nói về đánh đổi làm mất ngữ cảnh cần thiết khi mô hình hóa hiện tượng con người.
+q20,B,2,Hit #1 (p45-par-01) chứa trọn vẹn cả đoạn đầu mục Appendix C từ câu mở đầu tới hết.
+q20,C,2,Giống B.

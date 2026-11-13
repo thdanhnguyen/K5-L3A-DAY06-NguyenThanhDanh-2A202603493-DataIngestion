@@ -1,0 +1,262 @@
+[
+  {
+    "page": 6,
+    "document_page": 1,
+    "section": "executive_summary",
+    "target_excerpt": "Artificial intelligence (AI) technologies have significant potential to transform society and people’s lives – from commerce and health to transportation and cybersecurity to the environment and our planet. AI technologies can drive inclusive economic growth and support scientific advancements that ",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p06-fix-00",
+        "char_length": 499,
+        "text": "Executive Summary\n\nArtificial intelligence (AI) technologies have significant potential to transform society and people’s lives – from commerce and health to transportation and cybersecurity to the environment and our planet. AI technologies can drive inclusive economic growth and support scientific advancements that improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment,"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p06-fix-01",
+        "char_length": 500,
+        "text": "nizations, communities, society, the environment, and the planet. Like risks for other types of technology, AI risks can emerge in a variety of ways and can be characterized as long- or short-term, highor low-probability, systemic or localized, and high- or low-impact. The AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments. AI s"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p06-fix-02",
+        "char_length": 500,
+        "text": "ons influencing real or virtual environments. AI systems are designed to operate with varying levels of autonomy (Adapted from: OECD Recommendation on AI:2019; ISO /IEC 22989:2022).\n\nWhile there are myriad standards and best practices to help organizations mitigate the risks of traditional software or information-based systems, the risks posed by AI systems are in many ways unique (See Appendix B). AI systems, for example, may be trained on data that can change over time, sometimes significantly"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p06-par-00",
+        "char_length": 719,
+        "text": "Executive Summary\n\nArtificial intelligence (AI) technologies have significant potential to transform society and people’s lives – from commerce and health to transportation and cybersecurity to the environment and our planet. AI technologies can drive inclusive economic growth and support scientific advancements that improve the conditions of our world. AI technologies, however, also pose risks that can negatively impact individuals, groups, organizations, communities, society, the environment, and the planet. Like risks for other types of technology, AI risks can emerge in a variety of ways and can be characterized as long- or short-term, highor low-probability, systemic or localized, and high- or low-impact."
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p06-par-01",
+        "char_length": 361,
+        "text": "The AI RMF refers to an AI system as an engineered or machine-based system that can, for a given set of objectives, generate outputs such as predictions, recommendations, or decisions influencing real or virtual environments. AI systems are designed to operate with varying levels of autonomy (Adapted from: OECD Recommendation on AI:2019; ISO /IEC 22989:2022)."
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "document_page": 2,
+    "section": "executive_summary",
+    "target_excerpt": "Social responsibility can refer to the organization’s responsibility “for the impacts of its decisions and activities on society and the environment through transparent and ethical behavior” ( ISO 26000:2010). Sustainability refers to the “state of the global system, including environmental, social,",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p07-fix-00",
+        "char_length": 500,
+        "text": "Social responsibility can refer to the organization’s responsibility “for the impacts of its decisions and activities on society and the environment through transparent and ethical behavior” ( ISO 26000:2010). Sustainability refers to the “state of the global system, including environmental, social, and economic aspects, in which the needs of the present are met without compromising the ability of future generations to meet their own needs” ( ISO /IEC TR 24368:2022). Responsible AI is meant to r"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p07-fix-01",
+        "char_length": 499,
+        "text": "/IEC TR 24368:2022). Responsible AI is meant to result in technology that is also equitable and accountable. The expectation is that organizational practices are carried out in accord with “professional responsibility,” defined by ISO as an approach that “aims to ensure that professionals who design, develop, or deploy AI systems and applications or AI-based products or systems, recognize their unique position to exert influence on people, society, and the future of AI” (ISO /IEC TR 24368:2022)"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p07-fix-02",
+        "char_length": 500,
+        "text": "ty, and the future of AI” (ISO /IEC TR 24368:2022).\n\nAs directed by the National Artificial Intelligence Initiative Act of 2020 (P.L. 116-283), the goal of the AI RMF is to offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector-specific, and use-case agnostic, providing flexibil"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p07-par-00",
+        "char_length": 559,
+        "text": "Social responsibility can refer to the organization’s responsibility “for the impacts of its decisions and activities on society and the environment through transparent and ethical behavior” ( ISO 26000:2010). Sustainability refers to the “state of the global system, including environmental, social, and economic aspects, in which the needs of the present are met without compromising the ability of future generations to meet their own needs” ( ISO /IEC TR 24368:2022). Responsible AI is meant to result in technology that is also equitable and accountable."
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p07-par-01",
+        "char_length": 391,
+        "text": "The expectation is that organizational practices are carried out in accord with “professional responsibility,” defined by ISO as an approach that “aims to ensure that professionals who design, develop, or deploy AI systems and applications or AI-based products or systems, recognize their unique position to exert influence on people, society, and the future of AI” (ISO /IEC TR 24368:2022)."
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "document_page": 3,
+    "section": "executive_summary",
+    "target_excerpt": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy enhanced, and fair with their harmful biases managed. Part 2 comprises the “Core” of the Framework. It describes four specific functions to help organizations address the risks of AI s",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p08-fix-00",
+        "char_length": 500,
+        "text": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy enhanced, and fair with their harmful biases managed. Part 2 comprises the “Core” of the Framework. It describes four specific functions to help organizations address the risks of AI systems in practice. These functions – GOVERN , MAP, MEASURE , and MANAGE – are broken down further into categories and subcategories. While GOVERN applies to all stages of organizations’ AI risk manag"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p08-fix-01",
+        "char_length": 500,
+        "text": "lies to all stages of organizations’ AI risk management processes and procedures, the MAP, MEASURE , and MANAGE functions can be applied in AI system-specific contexts and at specific stages of the AI lifecycle. Additional resources related to the Framework are included in the AI RMF Playbook, which is available via the NIST AI RMF website:\n\nhttps://www.nist.gov/itl/ai-risk-management-framework.\n\nDevelopment of the AI RMF by NIST in collaboration with the private and public sectors is directed a"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p08-par-00",
+        "char_length": 792,
+        "text": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy enhanced, and fair with their harmful biases managed. Part 2 comprises the “Core” of the Framework. It describes four specific functions to help organizations address the risks of AI systems in practice. These functions – GOVERN , MAP, MEASURE , and MANAGE – are broken down further into categories and subcategories. While GOVERN applies to all stages of organizations’ AI risk management processes and procedures, the MAP, MEASURE , and MANAGE functions can be applied in AI system-specific contexts and at specific stages of the AI lifecycle. Additional resources related to the Framework are included in the AI RMF Playbook, which is available via the NIST AI RMF website:"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "document_page": 4,
+    "section": "part_1_foundational",
+    "target_excerpt": "1. Framing Risk AI risk management offers a path to minimize potential negative impacts of AI systems, such as threats to civil liberties and rights, while also providing opportunities to maximize positive impacts. Addressing, documenting, and managing AI risks and potential negative impacts effecti",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p09-fix-00",
+        "char_length": 500,
+        "text": "Part 1: Foundational Information\n\n1. Framing Risk AI risk management offers a path to minimize potential negative impacts of AI systems, such as threats to civil liberties and rights, while also providing opportunities to maximize positive impacts. Addressing, documenting, and managing AI risks and potential negative impacts effectively can lead to more trustworthy AI systems.\n\n1.1 Understanding and Addressing Risks, Impacts, and Harms\n\nIn the context of the AI RMF,risk refers to the composite m"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p09-par-00",
+        "char_length": 439,
+        "text": "Part 1: Foundational Information\n\n1. Framing Risk AI risk management offers a path to minimize potential negative impacts of AI systems, such as threats to civil liberties and rights, while also providing opportunities to maximize positive impacts. Addressing, documenting, and managing AI risks and potential negative impacts effectively can lead to more trustworthy AI systems.\n\n1.1 Understanding and Addressing Risks, Impacts, and Harms"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "document_page": 5,
+    "section": "part_1_foundational",
+    "target_excerpt": "Several challenges are described below. They should be taken into account when managing risks in pursuit of AI trustworthiness.",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p10-fix-00",
+        "char_length": 500,
+        "text": "Fig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their\n\nresponsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.\n\n1.2 Challenges for AI Risk Management\n\nSeveral challenges are described below. They should be taken into account when managing risks in pursuit of AI trustworthiness.\n\n1.2.1 Risk Measurement\n\nAI risks or failures that are not well-defined or adequately understood are difficult to measure qua"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p10-par-00",
+        "char_length": 697,
+        "text": "Fig. 1. Examples of potential harms related to AI systems. Trustworthy AI systems and their\n\nresponsible use can mitigate negative risks and contribute to benefits for people, organizations, and ecosystems.\n\n1.2 Challenges for AI Risk Management\n\nSeveral challenges are described below. They should be taken into account when managing risks in pursuit of AI trustworthiness.\n\n1.2.1 Risk Measurement\n\nAI risks or failures that are not well-defined or adequately understood are difficult to measure quantitatively or qualitatively. The inability to appropriately measure AI risks does not imply that an AI system necessarily poses either a high or low risk. Some risk measurement challenges include:"
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "document_page": 6,
+    "section": "part_1_foundational",
+    "target_excerpt": "AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts.",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p11-fix-00",
+        "char_length": 500,
+        "text": "AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts.\n\nAvailability of reliable metrics: The current lack of consensus on robust and verifiable measurement methods for risk and trustworthiness, and applicability to different AI use cases, is an AI risk measurement challenge. Potential pitfalls when seeking to measure negative risk or harms include the reality that development of metrics is often an institutional endeavor and may"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p11-par-00",
+        "char_length": 761,
+        "text": "AI system impact assessment approaches can help AI actors understand potential impacts or harms within specific contexts.\n\nAvailability of reliable metrics: The current lack of consensus on robust and verifiable measurement methods for risk and trustworthiness, and applicability to different AI use cases, is an AI risk measurement challenge. Potential pitfalls when seeking to measure negative risk or harms include the reality that development of metrics is often an institutional endeavor and may inadvertently reflect factors unrelated to the underlying impact. In addition, measurement approaches can be oversimplified, gamed, lack critical nuance, become relied upon in unexpected ways, or fail to account for differences in affected groups and contexts."
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "document_page": 7,
+    "section": "part_1_foundational",
+    "target_excerpt": "While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives. Risk tolerance can be influenced by legal or regulatory requirements (Adapt",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p12-fix-00",
+        "char_length": 500,
+        "text": "1.2.2 Risk Tolerance\n\nWhile the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives. Risk tolerance can be influenced by legal or regulatory requirements (Adapted from: ISO GUIDE 73). Risk tolerance and the level of risk that is acceptable to organizations or society are highly contextual and application and use-case specific. Risk tole"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p12-fix-01",
+        "char_length": 500,
+        "text": "l and application and use-case specific. Risk tolerances can be influenced by policies and norms established by AI system owners, organizations, industries, communities, or policy makers. Risk tolerances are likely to change over time as AI systems, policies, and norms evolve. Different organizations may have varied risk tolerances due to their particular organizational priorities and resource considerations.\n\nEmerging knowledge and methods to better inform harm/cost-benefit tradeoffs will conti"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p12-par-00",
+        "char_length": 727,
+        "text": "1.2.2 Risk Tolerance\n\nWhile the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance. Risk tolerance refers to the organization’s or AI actor’s (see Appendix A) readiness to bear the risk in order to achieve its objectives. Risk tolerance can be influenced by legal or regulatory requirements (Adapted from: ISO GUIDE 73). Risk tolerance and the level of risk that is acceptable to organizations or society are highly contextual and application and use-case specific. Risk tolerances can be influenced by policies and norms established by AI system owners, organizations, industries, communities, or policy makers. Risk tolerances are likely to change over time as AI systems, policies, and norms evolve."
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p12-par-01",
+        "char_length": 513,
+        "text": "Different organizations may have varied risk tolerances due to their particular organizational priorities and resource considerations.\n\nEmerging knowledge and methods to better inform harm/cost-benefit tradeoffs will continue to be developed and debated by businesses, governments, academia, and civil society. To the extent that challenges for specifying AI risk tolerances remain unresolved, there may be contexts where a risk management framework is not yet readily applicable for mitigating negative AI risks."
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "document_page": 8,
+    "section": "part_1_foundational",
+    "target_excerpt": "When applying the AI RMF, risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process. In cases where an AI system presents unacceptable negative risk levels – such as where s",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p13-fix-00",
+        "char_length": 500,
+        "text": "When applying the AI RMF, risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process. In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficien"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p13-fix-01",
+        "char_length": 500,
+        "text": "ease in a safe manner until risks can be sufficiently managed. If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization.\n\nRisk prioritization may differ between AI systems that are designed or deployed to directly interact with humans as compared to AI systems that are not. Higher initial prioritization may be called for in settings where the AI system is trained on large datasets comprised of sensi"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p13-par-00",
+        "char_length": 668,
+        "text": "When applying the AI RMF, risks which the organization determines to be highest for the AI systems within a given context of use call for the most urgent prioritization and most thorough risk management process. In cases where an AI system presents unacceptable negative risk levels – such as where significant negative impacts are imminent, severe harms are actually occurring, or catastrophic risks are present – development and deployment should cease in a safe manner until risks can be sufficiently managed. If an AI system’s development, deployment, and use cases are found to be low-risk in a specific context, that may suggest potentially lower prioritization."
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "document_page": 9,
+    "section": "part_1_foundational",
+    "target_excerpt": "Organizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective. Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. Effective risk mana",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p14-fix-00",
+        "char_length": 500,
+        "text": "Organizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective. Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry. In addition, small to medium-sized organizations managing AI r"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p14-fix-01",
+        "char_length": 499,
+        "text": "small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depending on their capabilities and resources.\n\n2. Audience Identifying and managing AI risks and potential impacts – both positive and negative – requires a broad set of perspectives and actors across the AI lifecycle. Ideally, AI actors will represent a diversity of experience, expertise, and backgrounds and comprise demographically and disciplinarily divers"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p14-par-00",
+        "char_length": 634,
+        "text": "Organizations need to establish and maintain the appropriate accountability mechanisms, roles and responsibilities, culture, and incentive structures for risk management to be effective. Use of the AI RMF alone will not lead to these changes or provide the appropriate incentives. Effective risk management is realized through organizational commitment at senior levels and may require cultural change within an organization or industry. In addition, small to medium-sized organizations managing AI risks or implementing the AI RMF may face different challenges than large organizations, depending on their capabilities and resources."
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "document_page": 10,
+    "section": "part_1_foundational",
+    "target_excerpt": "Framework for the Classification of AI systems — OECD Digital Economy Papers. The two inner circles show AI systems’ key dimensions and the outer circle shows AI lifecycle stages. Ideally, risk management efforts start with the Plan and Design function in the application context and are performed th",
+    "strategy_A_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p15-fix-00",
+        "char_length": 500,
+        "text": "Fig. 2. Lifecycle and Key Dimensions of an AI System. Modified from OECD (2022) OECD\n\nFramework for the Classification of AI systems — OECD Digital Economy Papers. The two inner circles show AI systems’ key dimensions and the outer circle shows AI lifecycle stages. Ideally, risk management efforts start with the Plan and Design function in the application context and are performed throughout the AI system lifecycle. See Figure 3 for representative AI actors. environmental groups, civil society o"
+      },
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p15-fix-01",
+        "char_length": 500,
+        "text": "e AI actors. environmental groups, civil society organizations, end users, and potentially impacted individuals and communities. These actors can:\n\n• assist in providing context and understanding potential and actual impacts;\n\n• be a source of formal or quasi-formal norms and guidance for AI risk management;\n\n• designate boundaries for AI operation (technical, societal, legal, and ethical); and\n\n• promote discussion of the tradeoffs needed to balance societal values and priorities related to civ"
+      }
+    ],
+    "strategy_B_C_chunks": [
+      {
+        "chunk_id": "nist-ai-rmf-1.0-p15-par-00",
+        "char_length": 759,
+        "text": "Fig. 2. Lifecycle and Key Dimensions of an AI System. Modified from OECD (2022) OECD\n\nFramework for the Classification of AI systems — OECD Digital Economy Papers. The two inner circles show AI systems’ key dimensions and the outer circle shows AI lifecycle stages. Ideally, risk management efforts start with the Plan and Design function in the application context and are performed throughout the AI system lifecycle. See Figure 3 for representative AI actors. environmental groups, civil society organizations, end users, and potentially impacted individuals and communities. These actors can:\n\n• assist in providing context and understanding potential and actual impacts;\n\n• be a source of formal or quasi-formal norms and guidance for AI risk management;"
+      }
+    ]
+  }
+]
