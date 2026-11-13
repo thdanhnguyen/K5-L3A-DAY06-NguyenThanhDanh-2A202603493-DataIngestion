@@ -45,3 +45,18 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Bài làm của học viên (Nguyễn Thành Danh — 2A202603493)
+
+- **Corpus và manifest**: Em chọn tài liệu `starter/data/NIST_AI_RMF_1.0.pdf` (42 trang nội dung hợp lệ từ trang vật lý 6 đến 47), thông số nguồn và quy tắc tính trang ghi tại [data/manifest.json](data/manifest.json).
+- **Benchmark**: 20 câu hỏi (15 `dev`, 5 `test`, trong đó 4 câu kiểm tra lọc `section`) tại [benchmark/questions.json](benchmark/questions.json).
+- **Pipeline**: Cài đặt hoàn chỉnh các module `ingestion.py`, `chunking.py`, `embeddings.py`, `store.py`, `evaluation.py`, `run.py` trong `starter/src/`, sử dụng OpenAI `text-embedding-3-small` (`1536` chiều) và PostgreSQL 16 + `pgvector 0.8.7` (`127.0.0.1:55433`).
+- **Cách tái lập nhanh**:
+  1. Khởi động container PostgreSQL + pgvector trong `starter/` (`docker compose -p day6_student_starter up -d --wait`) và điền `OPENAI_API_KEY` vào `starter/.env`.
+  2. Kiểm tra hạ tầng: `starter\.venv\Scripts\python.exe starter\scripts\check_setup.py`
+  3. Chạy toàn bộ pipeline và đánh giá: `starter\.venv\Scripts\python.exe starter\src\run.py` (hoặc từ thư mục `starter/`: `.\.venv\Scripts\python.exe -m src.run`)
+- **Kết quả và báo cáo**:
+  - Thống kê chỉ số & trace: [results/metrics_summary.json](results/metrics_summary.json), [results/strategy_stats.json](results/strategy_stats.json), [results/traces.json](results/traces.json)
+  - Nhật ký chấm thủ công: [results/manual_audit.md](results/manual_audit.md)
+  - Nhật ký thí nghiệm: [artifacts/experiment_log.csv](artifacts/experiment_log.csv)
+  - Báo cáo cá nhân: [report/individual/2A202603493_NguyenThanhDanh.md](report/individual/2A202603493_NguyenThanhDanh.md)

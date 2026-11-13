@@ -1,0 +1,68 @@
+{
+  "A": {
+    "dev": {
+      "total": 15,
+      "hit_at_1_count": 6,
+      "hit_at_1_rate": 0.4,
+      "hit_at_3_count": 9,
+      "hit_at_3_rate": 0.6,
+      "filter_total": 3,
+      "filter_compliant_count": 1,
+      "filter_compliant_rate": 0.3333
+    },
+    "test": {
+      "total": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1_rate": 0.6,
+      "hit_at_3_count": 4,
+      "hit_at_3_rate": 0.8,
+      "filter_total": 1,
+      "filter_compliant_count": 0,
+      "filter_compliant_rate": 0.0
+    }
+  },
+  "B": {
+    "dev": {
+      "total": 15,
+      "hit_at_1_count": 10,
+      "hit_at_1_rate": 0.6667,
+      "hit_at_3_count": 12,
+      "hit_at_3_rate": 0.8,
+      "filter_total": 3,
+      "filter_compliant_count": 1,
+      "filter_compliant_rate": 0.3333
+    },
+    "test": {
+      "total": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1_rate": 0.6,
+      "hit_at_3_count": 4,
+      "hit_at_3_rate": 0.8,
+      "filter_total": 1,
+      "filter_compliant_count": 0,
+      "filter_compliant_rate": 0.0
+    }
+  },
+  "C": {
+    "dev": {
+      "total": 15,
+      "hit_at_1_count": 10,
+      "hit_at_1_rate": 0.6667,
+      "hit_at_3_count": 12,
+      "hit_at_3_rate": 0.8,
+      "filter_total": 3,
+      "filter_compliant_count": 3,
+      "filter_compliant_rate": 1.0
+    },
+    "test": {
+      "total": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1_rate": 0.6,
+      "hit_at_3_count": 5,
+      "hit_at_3_rate": 1.0,
+      "filter_total": 1,
+      "filter_compliant_count": 1,
+      "filter_compliant_rate": 1.0
+    }
+  }
+}

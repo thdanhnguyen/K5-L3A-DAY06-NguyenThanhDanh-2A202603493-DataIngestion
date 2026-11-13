@@ -1,0 +1,123 @@
+{
+  "auditor": "Nguyễn Thành Danh (2A202603493)",
+  "bias_note": "Chấm thủ công do chính tác giả thực hiện sau khi cố định 10 vị trí coherence đầu tiên (p06-p15) và 5 câu test (q16-q20); có nguy cơ thiên lệch nhận thức vì tác giả biết trước chiến lược đang chấm.",
+  "coherence_audit": {
+    "selection_rule": "10 vị trí nguồn đầu tiên theo thứ tự số trang vật lý tăng dần (trang 6 đến trang 15), lấy đoạn nội dung đầu tiên >= 120 ký tự trên mỗi trang.",
+    "scale": "0 = cắt giữa ý/thiếu chủ thể làm khó hiểu; 1 = hiểu một phần, thiếu ngữ cảnh đầu hoặc cuối; 2 = tự hiểu được và giữ trọn ý.",
+    "samples": [
+      {
+        "page": 6,
+        "document_page": 1,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p06-fix-00", "nist-ai-rmf-1.0-p06-fix-01"], "score": 0, "reason": "Cắt cứng tại ký tự 500 giữa danh sách (...the environment,) và bắt đầu chunk kế tiếp bằng mảnh từ bị cắt (nizations, communities...)."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p06-par-00", "nist-ai-rmf-1.0-p06-par-01"], "score": 2, "reason": "Giữ trọn vẹn đoạn mở đầu Executive Summary và tách riêng trọn vẹn định nghĩa AI system."}
+      },
+      {
+        "page": 7,
+        "document_page": 2,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p07-fix-00", "nist-ai-rmf-1.0-p07-fix-01"], "score": 0, "reason": "Cắt ngang chữ (...is meant to r) và khởi đầu chunk sau bằng mảnh trích dẫn (/IEC TR 24368:2022)."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p07-par-00", "nist-ai-rmf-1.0-p07-par-01"], "score": 2, "reason": "Giữ nguyên vẹn trích dẫn ISO 26000:2010 và ISO/IEC TR 24368:2022 trong cùng đoạn."}
+      },
+      {
+        "page": 8,
+        "document_page": 3,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p08-fix-00"], "score": 0, "reason": "Cắt ngang cụm từ cuối chunk (AI risk manag)."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p08-par-00"], "score": 1, "reason": "Không bị cắt giữa từ hay câu ở cuối chunk, nhưng phần đầu trang vốn nối câu từ trang 7 nên thiếu vế mở đầu của câu đầu tiên."}
+      },
+      {
+        "page": 9,
+        "document_page": 4,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p09-fix-00"], "score": 0, "reason": "Cắt ngang chữ (composite m) ngay giữa định nghĩa khái niệm risk."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p09-par-00"], "score": 2, "reason": "Giữ trọn tiêu đề Part 1, mục 1. Framing Risk và dừng đúng ranh giới trước mục 1.1."}
+      },
+      {
+        "page": 10,
+        "document_page": 5,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p10-fix-00"], "score": 0, "reason": "Cắt ngang từ (difficult to measure qua) ở cuối chunk."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p10-par-00"], "score": 2, "reason": "Giữ trọn vẹn phần dẫn mục 1.2, 1.2.1 và toàn bộ câu kết luận trước danh sách thách thức."}
+      },
+      {
+        "page": 11,
+        "document_page": 6,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p11-fix-00"], "score": 0, "reason": "Cắt dở dang giữa câu giải thích nhược điểm của metrics (...institutional endeavor and may)."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p11-par-00"], "score": 2, "reason": "Giữ trọn đoạn về impact assessment và toàn bộ đoạn Availability of reliable metrics."}
+      },
+      {
+        "page": 12,
+        "document_page": 7,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p12-fix-00", "nist-ai-rmf-1.0-p12-fix-01"], "score": 0, "reason": "Cắt ngang chữ Risk tole ở cuối chunk đầu và cắt chữ conti ở chunk sau."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p12-par-00"], "score": 2, "reason": "Bao trọn vẹn mục 1.2.2 Risk Tolerance từ tiêu đề tới hết câu cuối đoạn."}
+      },
+      {
+        "page": 13,
+        "document_page": 8,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p13-fix-00", "nist-ai-rmf-1.0-p13-fix-01"], "score": 0, "reason": "Cắt ngang chữ (sufficien / ease in a safe manner) ngay tại câu điều kiện dừng triển khai."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p13-par-00"], "score": 2, "reason": "Giữ trọn vẹn toàn bộ đoạn phân tích mức độ ưu tiên rủi ro và điều kiện dừng an toàn."}
+      },
+      {
+        "page": 14,
+        "document_page": 9,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p14-fix-00", "nist-ai-rmf-1.0-p14-fix-01"], "score": 0, "reason": "Cắt ngang từ (managing AI r) và (divers) ở hai đầu chunk."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p14-par-00"], "score": 2, "reason": "Giữ trọn vẹn đoạn giải thích cơ chế trách nhiệm giải trình và thách thức của tổ chức vừa và nhỏ."}
+      },
+      {
+        "page": 15,
+        "document_page": 10,
+        "strategy_A": {"chunk_ids": ["nist-ai-rmf-1.0-p15-fix-00", "nist-ai-rmf-1.0-p15-fix-01"], "score": 0, "reason": "Cắt ngang chữ (civil society o) và trộn lẫn nhãn sơ đồ Fig. 2."},
+        "strategy_B_C": {"chunk_ids": ["nist-ai-rmf-1.0-p15-par-00"], "score": 1, "reason": "Không cắt ngang từ ở cuối, nhưng phần text trích xuất quanh sơ đồ Fig. 2 bị lẫn chữ chú thích từ hình vẽ."}
+      }
+    ],
+    "summary": {
+      "A": {"count": 10, "distribution": {"0": 10, "1": 0, "2": 0}, "mean_score": 0.0},
+      "B": {"count": 10, "distribution": {"0": 0, "1": 2, "2": 8}, "mean_score": 1.8},
+      "C": {"count": 10, "distribution": {"0": 0, "1": 2, "2": 8}, "mean_score": 1.8}
+    }
+  },
+  "metadata_audit": {
+    "test_records_checked_per_strategy": 15,
+    "correct_metadata_count": {"A": "15/15", "B": "15/15", "C": "15/15"},
+    "filter_compliance_dev": {"A": "1/3", "B": "1/3", "C": "3/3"},
+    "filter_compliance_test": {"A": "0/1", "B": "0/1", "C": "1/1"},
+    "filter_compliance_all": {"A": "1/4", "B": "1/4", "C": "4/4"},
+    "observations": "Toàn bộ 15 bản ghi top-3 trên tập test của cả 3 chiến lược đều mang đúng source, page và section so với tài liệu gốc. Tuy nhiên khi không bật lọc SQL ở A và B, kết quả top-3 cho các câu hỏi cần phạm vi section (q12, q15 ở dev; q19 ở test) bị trôi sang các section khác; chiến lược C đảm bảo 100% phạm vi lọc."
+  },
+  "grounding_audit_test_set": {
+    "scale": "0 = không có bằng chứng; 1 = có nhưng thiếu điều kiện/ngữ cảnh cần thiết; 2 = đủ bằng chứng để trả lời và truy nguồn.",
+    "questions": [
+      {
+        "question_id": "q16",
+        "A": {"score": 2, "reason": "Hit #2 (p29-fix-00) chứa nguyên văn GOVERN 4.3 và truy được về trang 29."},
+        "B": {"score": 2, "reason": "Hit #2 (p29-par-00) chứa nguyên văn GOVERN 4.3 kèm bối cảnh GOVERN 4 và GOVERN 5."},
+        "C": {"score": 2, "reason": "Giống B (câu hỏi không yêu cầu filter)."}
+      },
+      {
+        "question_id": "q17",
+        "A": {"score": 2, "reason": "Hit #1 (p36-fix-00) chứa trọn câu MEASURE 3.3 ở trang 36."},
+        "B": {"score": 2, "reason": "Hit #1 (p36-par-00) chứa trọn câu MEASURE 3.3 và ngữ cảnh MEASURE 4."},
+        "C": {"score": 2, "reason": "Giống B."}
+      },
+      {
+        "question_id": "q18",
+        "A": {"score": 2, "reason": "Hit #1 (p38-fix-00) chứa đủ nội dung MANAGE 4.1 ở trang 38."},
+        "B": {"score": 2, "reason": "Hit #1 (p38-par-00) chứa trọn vẹn MANAGE 4, 4.1 và 4.2 ở trang 38."},
+        "C": {"score": 2, "reason": "Giống B."}
+      },
+      {
+        "question_id": "q19",
+        "A": {"score": 0, "reason": "Cả 3 kết quả (p45, p30, p22) đều không nhắc đến pre-trained models và transfer learning trong Appendix B."},
+        "B": {"score": 0, "reason": "Cả 3 kết quả (p45, p19, p30) đều lệch sang phần khác, không có bằng chứng từ trang 43."},
+        "C": {"score": 2, "reason": "Nhờ filter section=appendix, Hit #2 (p43-par-00) trả về đúng đoạn Appendix B nêu rõ pre-trained models và transfer learning."}
+      },
+      {
+        "question_id": "q20",
+        "A": {"score": 2, "reason": "Hit #1 (p45-fix-01) chứa trọn vẹn câu nói về đánh đổi làm mất ngữ cảnh cần thiết khi mô hình hóa hiện tượng con người."},
+        "B": {"score": 2, "reason": "Hit #1 (p45-par-01) chứa trọn vẹn cả đoạn đầu mục Appendix C từ câu mở đầu tới hết."},
+        "C": {"score": 2, "reason": "Giống B."}
+      }
+    ],
+    "summary": {
+      "A": {"distribution": {"0": 1, "1": 0, "2": 4}, "mean_score": 1.6},
+      "B": {"distribution": {"0": 1, "1": 0, "2": 4}, "mean_score": 1.6},
+      "C": {"distribution": {"0": 0, "1": 0, "2": 5}, "mean_score": 2.0}
+    }
+  }
+}

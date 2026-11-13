@@ -1,0 +1,382 @@
+{
+  "document_id": "nist-ai-rmf-1.0",
+  "source": "starter/data/NIST_AI_RMF_1.0.pdf",
+  "total_physical_pages": 48,
+  "ingested_pages": 42,
+  "excluded_pages": 6,
+  "error_pages": 0,
+  "pages": [
+    {
+      "physical_page": 1,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 76
+    },
+    {
+      "physical_page": 2,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 376
+    },
+    {
+      "physical_page": 3,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 1535
+    },
+    {
+      "physical_page": 4,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 1235
+    },
+    {
+      "physical_page": 5,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 1639
+    },
+    {
+      "physical_page": 6,
+      "document_page": 1,
+      "section": "executive_summary",
+      "status": "ingested",
+      "raw_chars": 3108,
+      "normalized_chars": 3059
+    },
+    {
+      "physical_page": 7,
+      "document_page": 2,
+      "section": "executive_summary",
+      "status": "ingested",
+      "raw_chars": 3103,
+      "normalized_chars": 3065
+    },
+    {
+      "physical_page": 8,
+      "document_page": 3,
+      "section": "executive_summary",
+      "status": "ingested",
+      "raw_chars": 1874,
+      "normalized_chars": 1834
+    },
+    {
+      "physical_page": 9,
+      "document_page": 4,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2750,
+      "normalized_chars": 2712
+    },
+    {
+      "physical_page": 10,
+      "document_page": 5,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 1887,
+      "normalized_chars": 1858
+    },
+    {
+      "physical_page": 11,
+      "document_page": 6,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2770,
+      "normalized_chars": 2733
+    },
+    {
+      "physical_page": 12,
+      "document_page": 7,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2964,
+      "normalized_chars": 2929
+    },
+    {
+      "physical_page": 13,
+      "document_page": 8,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 3131,
+      "normalized_chars": 3097
+    },
+    {
+      "physical_page": 14,
+      "document_page": 9,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 3058,
+      "normalized_chars": 3015
+    },
+    {
+      "physical_page": 15,
+      "document_page": 10,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 1583,
+      "normalized_chars": 1554
+    },
+    {
+      "physical_page": 16,
+      "document_page": 11,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 409,
+      "normalized_chars": 377
+    },
+    {
+      "physical_page": 17,
+      "document_page": 12,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2648,
+      "normalized_chars": 2603
+    },
+    {
+      "physical_page": 18,
+      "document_page": 13,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2992,
+      "normalized_chars": 2947
+    },
+    {
+      "physical_page": 19,
+      "document_page": 14,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2784,
+      "normalized_chars": 2752
+    },
+    {
+      "physical_page": 20,
+      "document_page": 15,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 3129,
+      "normalized_chars": 3092
+    },
+    {
+      "physical_page": 21,
+      "document_page": 16,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2928,
+      "normalized_chars": 2891
+    },
+    {
+      "physical_page": 22,
+      "document_page": 17,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 2829,
+      "normalized_chars": 2791
+    },
+    {
+      "physical_page": 23,
+      "document_page": 18,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 1678,
+      "normalized_chars": 1636
+    },
+    {
+      "physical_page": 24,
+      "document_page": 19,
+      "section": "part_1_foundational",
+      "status": "ingested",
+      "raw_chars": 1890,
+      "normalized_chars": 1853
+    },
+    {
+      "physical_page": 25,
+      "document_page": 20,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 1289,
+      "normalized_chars": 1254
+    },
+    {
+      "physical_page": 26,
+      "document_page": 21,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2696,
+      "normalized_chars": 2663
+    },
+    {
+      "physical_page": 27,
+      "document_page": 22,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2439,
+      "normalized_chars": 2408
+    },
+    {
+      "physical_page": 28,
+      "document_page": 23,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2309,
+      "normalized_chars": 2275
+    },
+    {
+      "physical_page": 29,
+      "document_page": 24,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2470,
+      "normalized_chars": 2444
+    },
+    {
+      "physical_page": 30,
+      "document_page": 25,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2765,
+      "normalized_chars": 2728
+    },
+    {
+      "physical_page": 31,
+      "document_page": 26,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2094,
+      "normalized_chars": 2060
+    },
+    {
+      "physical_page": 32,
+      "document_page": 27,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2334,
+      "normalized_chars": 2299
+    },
+    {
+      "physical_page": 33,
+      "document_page": 28,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2747,
+      "normalized_chars": 2699
+    },
+    {
+      "physical_page": 34,
+      "document_page": 29,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2103,
+      "normalized_chars": 2074
+    },
+    {
+      "physical_page": 35,
+      "document_page": 30,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2063,
+      "normalized_chars": 2032
+    },
+    {
+      "physical_page": 36,
+      "document_page": 31,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2393,
+      "normalized_chars": 2356
+    },
+    {
+      "physical_page": 37,
+      "document_page": 32,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2265,
+      "normalized_chars": 2239
+    },
+    {
+      "physical_page": 38,
+      "document_page": 33,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 2662,
+      "normalized_chars": 2628
+    },
+    {
+      "physical_page": 39,
+      "document_page": 34,
+      "section": "part_2_core_profiles",
+      "status": "ingested",
+      "raw_chars": 468,
+      "normalized_chars": 434
+    },
+    {
+      "physical_page": 40,
+      "document_page": 35,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 3127,
+      "normalized_chars": 3085
+    },
+    {
+      "physical_page": 41,
+      "document_page": 36,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 3026,
+      "normalized_chars": 2996
+    },
+    {
+      "physical_page": 42,
+      "document_page": 37,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2062,
+      "normalized_chars": 2024
+    },
+    {
+      "physical_page": 43,
+      "document_page": 38,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2705,
+      "normalized_chars": 2670
+    },
+    {
+      "physical_page": 44,
+      "document_page": 39,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2644,
+      "normalized_chars": 2599
+    },
+    {
+      "physical_page": 45,
+      "document_page": 40,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2703,
+      "normalized_chars": 2665
+    },
+    {
+      "physical_page": 46,
+      "document_page": 41,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2163,
+      "normalized_chars": 2126
+    },
+    {
+      "physical_page": 47,
+      "document_page": 42,
+      "section": "appendix",
+      "status": "ingested",
+      "raw_chars": 2453,
+      "normalized_chars": 2423
+    },
+    {
+      "physical_page": 48,
+      "status": "excluded",
+      "reason": "front_or_back_matter",
+      "raw_chars": 88
+    }
+  ]
+}

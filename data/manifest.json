@@ -1,0 +1,393 @@
+{
+  "source_id": "nist-ai-rmf-1.0",
+  "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+  "publication_id": "NIST AI 100-1",
+  "version": "1.0 (January 2023)",
+  "source_path_or_url": "starter/data/NIST_AI_RMF_1.0.pdf",
+  "official_url": "https://doi.org/10.6028/NIST.AI.100-1",
+  "license_or_permission": "Public domain / U.S. Government work (NIST publication, available free of charge at https://doi.org/10.6028/NIST.AI.100-1; not subject to copyright protection in the United States under 17 U.S.C. 105).",
+  "accessed_at": "2026-11-13T11:40:00+07:00",
+  "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+  "total_physical_pages": 48,
+  "included_page_count": 42,
+  "excluded_pages": [
+    {
+      "physical_page": 1,
+      "reason": "Cover page"
+    },
+    {
+      "physical_page": 2,
+      "reason": "Publication metadata and DOI page"
+    },
+    {
+      "physical_page": 3,
+      "reason": "Disclaimer and acknowledgments"
+    },
+    {
+      "physical_page": 4,
+      "reason": "Table of Contents (i)"
+    },
+    {
+      "physical_page": 5,
+      "reason": "List of Figures (ii)"
+    },
+    {
+      "physical_page": 48,
+      "reason": "Back cover / DOI URL"
+    }
+  ],
+  "counting_rule": "Counted physical pages 6 to 47 (corresponding to document pages 1 to 42) containing substantive framework content (Executive Summary, Part 1, Part 2, and Appendices A-D). Excluded cover, publication metadata, disclaimer, Table of Contents, List of Figures, and back cover. Character counts measured on stripped text extracted by pypdf.",
+  "total_char_count": 101495,
+  "metadata_filter_fields": [
+    {
+      "field": "section",
+      "type": "string",
+      "values": [
+        "executive_summary",
+        "part_1_foundational",
+        "part_2_core_profiles",
+        "appendix"
+      ],
+      "source": "Derived deterministically from Table of Contents and physical page ranges."
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "nist-ai-rmf-1.0-p06",
+      "physical_page": 6,
+      "document_page": 1,
+      "section": "executive_summary",
+      "char_count": 3108,
+      "normalized_char_count": 3059
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p07",
+      "physical_page": 7,
+      "document_page": 2,
+      "section": "executive_summary",
+      "char_count": 3103,
+      "normalized_char_count": 3065
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p08",
+      "physical_page": 8,
+      "document_page": 3,
+      "section": "executive_summary",
+      "char_count": 1874,
+      "normalized_char_count": 1834
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p09",
+      "physical_page": 9,
+      "document_page": 4,
+      "section": "part_1_foundational",
+      "char_count": 2750,
+      "normalized_char_count": 2712
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p10",
+      "physical_page": 10,
+      "document_page": 5,
+      "section": "part_1_foundational",
+      "char_count": 1887,
+      "normalized_char_count": 1858
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p11",
+      "physical_page": 11,
+      "document_page": 6,
+      "section": "part_1_foundational",
+      "char_count": 2770,
+      "normalized_char_count": 2733
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p12",
+      "physical_page": 12,
+      "document_page": 7,
+      "section": "part_1_foundational",
+      "char_count": 2964,
+      "normalized_char_count": 2929
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p13",
+      "physical_page": 13,
+      "document_page": 8,
+      "section": "part_1_foundational",
+      "char_count": 3131,
+      "normalized_char_count": 3097
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p14",
+      "physical_page": 14,
+      "document_page": 9,
+      "section": "part_1_foundational",
+      "char_count": 3058,
+      "normalized_char_count": 3015
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p15",
+      "physical_page": 15,
+      "document_page": 10,
+      "section": "part_1_foundational",
+      "char_count": 1583,
+      "normalized_char_count": 1554
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p16",
+      "physical_page": 16,
+      "document_page": 11,
+      "section": "part_1_foundational",
+      "char_count": 409,
+      "normalized_char_count": 377
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p17",
+      "physical_page": 17,
+      "document_page": 12,
+      "section": "part_1_foundational",
+      "char_count": 2648,
+      "normalized_char_count": 2603
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p18",
+      "physical_page": 18,
+      "document_page": 13,
+      "section": "part_1_foundational",
+      "char_count": 2992,
+      "normalized_char_count": 2947
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p19",
+      "physical_page": 19,
+      "document_page": 14,
+      "section": "part_1_foundational",
+      "char_count": 2784,
+      "normalized_char_count": 2752
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p20",
+      "physical_page": 20,
+      "document_page": 15,
+      "section": "part_1_foundational",
+      "char_count": 3129,
+      "normalized_char_count": 3092
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p21",
+      "physical_page": 21,
+      "document_page": 16,
+      "section": "part_1_foundational",
+      "char_count": 2928,
+      "normalized_char_count": 2891
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p22",
+      "physical_page": 22,
+      "document_page": 17,
+      "section": "part_1_foundational",
+      "char_count": 2829,
+      "normalized_char_count": 2791
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p23",
+      "physical_page": 23,
+      "document_page": 18,
+      "section": "part_1_foundational",
+      "char_count": 1678,
+      "normalized_char_count": 1636
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p24",
+      "physical_page": 24,
+      "document_page": 19,
+      "section": "part_1_foundational",
+      "char_count": 1890,
+      "normalized_char_count": 1853
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p25",
+      "physical_page": 25,
+      "document_page": 20,
+      "section": "part_2_core_profiles",
+      "char_count": 1289,
+      "normalized_char_count": 1254
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p26",
+      "physical_page": 26,
+      "document_page": 21,
+      "section": "part_2_core_profiles",
+      "char_count": 2696,
+      "normalized_char_count": 2663
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p27",
+      "physical_page": 27,
+      "document_page": 22,
+      "section": "part_2_core_profiles",
+      "char_count": 2439,
+      "normalized_char_count": 2408
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p28",
+      "physical_page": 28,
+      "document_page": 23,
+      "section": "part_2_core_profiles",
+      "char_count": 2309,
+      "normalized_char_count": 2275
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p29",
+      "physical_page": 29,
+      "document_page": 24,
+      "section": "part_2_core_profiles",
+      "char_count": 2470,
+      "normalized_char_count": 2444
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p30",
+      "physical_page": 30,
+      "document_page": 25,
+      "section": "part_2_core_profiles",
+      "char_count": 2765,
+      "normalized_char_count": 2728
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p31",
+      "physical_page": 31,
+      "document_page": 26,
+      "section": "part_2_core_profiles",
+      "char_count": 2094,
+      "normalized_char_count": 2060
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p32",
+      "physical_page": 32,
+      "document_page": 27,
+      "section": "part_2_core_profiles",
+      "char_count": 2334,
+      "normalized_char_count": 2299
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p33",
+      "physical_page": 33,
+      "document_page": 28,
+      "section": "part_2_core_profiles",
+      "char_count": 2747,
+      "normalized_char_count": 2699
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p34",
+      "physical_page": 34,
+      "document_page": 29,
+      "section": "part_2_core_profiles",
+      "char_count": 2103,
+      "normalized_char_count": 2074
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p35",
+      "physical_page": 35,
+      "document_page": 30,
+      "section": "part_2_core_profiles",
+      "char_count": 2063,
+      "normalized_char_count": 2032
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p36",
+      "physical_page": 36,
+      "document_page": 31,
+      "section": "part_2_core_profiles",
+      "char_count": 2393,
+      "normalized_char_count": 2356
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p37",
+      "physical_page": 37,
+      "document_page": 32,
+      "section": "part_2_core_profiles",
+      "char_count": 2265,
+      "normalized_char_count": 2239
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p38",
+      "physical_page": 38,
+      "document_page": 33,
+      "section": "part_2_core_profiles",
+      "char_count": 2662,
+      "normalized_char_count": 2628
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p39",
+      "physical_page": 39,
+      "document_page": 34,
+      "section": "part_2_core_profiles",
+      "char_count": 468,
+      "normalized_char_count": 434
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p40",
+      "physical_page": 40,
+      "document_page": 35,
+      "section": "appendix",
+      "char_count": 3127,
+      "normalized_char_count": 3085
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p41",
+      "physical_page": 41,
+      "document_page": 36,
+      "section": "appendix",
+      "char_count": 3026,
+      "normalized_char_count": 2996
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p42",
+      "physical_page": 42,
+      "document_page": 37,
+      "section": "appendix",
+      "char_count": 2062,
+      "normalized_char_count": 2024
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p43",
+      "physical_page": 43,
+      "document_page": 38,
+      "section": "appendix",
+      "char_count": 2705,
+      "normalized_char_count": 2670
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p44",
+      "physical_page": 44,
+      "document_page": 39,
+      "section": "appendix",
+      "char_count": 2644,
+      "normalized_char_count": 2599
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p45",
+      "physical_page": 45,
+      "document_page": 40,
+      "section": "appendix",
+      "char_count": 2703,
+      "normalized_char_count": 2665
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p46",
+      "physical_page": 46,
+      "document_page": 41,
+      "section": "appendix",
+      "char_count": 2163,
+      "normalized_char_count": 2126
+    },
+    {
+      "page_id": "nist-ai-rmf-1.0-p47",
+      "physical_page": 47,
+      "document_page": 42,
+      "section": "appendix",
+      "char_count": 2453,
+      "normalized_char_count": 2423
+    }
+  ],
+  "total_normalized_char_count": 99979
+}

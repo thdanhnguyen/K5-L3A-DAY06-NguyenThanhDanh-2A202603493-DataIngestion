@@ -1,0 +1,81 @@
+{
+  "run_started_at": "2026-11-13T19:00:26+07:00",
+  "runtime_versions": {
+    "python": "3.12.4",
+    "pypdf": "6.21.4",
+    "psycopg": "3.3.8",
+    "python_dotenv": "1.2.4"
+  },
+  "embedding_model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7",
+  "similarity_metric": "cosine (exact sequential scan)",
+  "idempotency_check_strategy_A": {
+    "count_after_first_upsert": 235,
+    "count_after_second_upsert": 235,
+    "duplicate_free": true
+  },
+  "strategies": {
+    "A": {
+      "description": "fixed_size(size=500, overlap=50), no metadata filter",
+      "chunk_stats": {
+        "count": 235,
+        "total_chars": 109583,
+        "min": 52,
+        "median": 500,
+        "p90": 500,
+        "max": 500,
+        "mean": 466.3
+      },
+      "upsert_result": {
+        "upserted": 235,
+        "pruned": 0
+      },
+      "ingest_seconds": 9.254,
+      "embedding_tokens": 20316,
+      "embedding_cost_usd": 0.000406
+    },
+    "B": {
+      "description": "by_paragraph(max_size=800), no metadata filter",
+      "chunk_stats": {
+        "count": 173,
+        "total_chars": 99750,
+        "min": 22,
+        "median": 622,
+        "p90": 763,
+        "max": 797,
+        "mean": 576.6
+      },
+      "upsert_result": {
+        "upserted": 173,
+        "pruned": 0
+      },
+      "ingest_seconds": 3.511,
+      "embedding_tokens": 18274,
+      "embedding_cost_usd": 0.000365
+    },
+    "C": {
+      "description": "by_paragraph(max_size=800) with section metadata filter when question specifies filter",
+      "chunk_stats": {
+        "count": 173,
+        "total_chars": 99750,
+        "min": 22,
+        "median": 622,
+        "p90": 763,
+        "max": 797,
+        "mean": 576.6
+      },
+      "upsert_result": {
+        "upserted": 173,
+        "pruned": 0
+      },
+      "ingest_seconds_db_only": 0.229,
+      "embedding_tokens_reused_from_B": 18274,
+      "embedding_cost_usd_if_standalone": 0.000365
+    }
+  },
+  "query_embedding_tokens": 1168,
+  "total_api_tokens": 39758,
+  "total_api_cost_usd": 0.000795,
+  "run_completed_at": "2026-11-13T19:00:52+07:00"
+}
